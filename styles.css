@@ -1,0 +1,24 @@
+/* BODY */
+body {
+    background-color: #1F2937;
+}
+
+/* HEADER  */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+}
+
+.header_links {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
