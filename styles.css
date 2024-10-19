@@ -1,6 +1,7 @@
 /* BODY */
 body {
-    background-color: #1F2937;
+    background-color: white;
+    margin: 0px 100px;
 }
 
 /* HEADER  */
@@ -11,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     color: white;
+    background-color: #1F2937;
 }
 
 .header_links {
@@ -21,4 +23,39 @@ header {
 a {
     text-decoration: none;
     color: white;
+}
+
+
+/* Sign Up  */
+
+.sign_up {
+    display: flex;
+    background-color: #1F2937;
+}
+
+/* Content  */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container_for_content_images {
+    display: flex;
+    gap: 15px;
+}
+
+.container_for_image {
+    width: 100px;
+    height: 100px;
+    border: solid blue;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
