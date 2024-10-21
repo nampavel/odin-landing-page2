@@ -66,9 +66,17 @@ a {
     margin: 0px 20px;
     background-color: darkgray;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Content  */
+
+.title_for_content {
+    font-size: 25px;
+    font-weight: 900;
+}
 
 .content {
     display: flex;
@@ -95,9 +103,29 @@ a {
     align-items: center;
 }
 
+.subtext {
+    text-align: center;
+
+}
 
 
+/* Quote  */
 
+.quote {
+    background-color: #E5E7EB;
+
+}
+
+.quote-text {
+    font-size: 25px;
+    font-style: italic;
+    
+}
+
+.quote-author {
+    font-weight: 900;
+    text-align: end;
+}
 
 
 
